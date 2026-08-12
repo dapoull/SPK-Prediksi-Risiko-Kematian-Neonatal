@@ -34,7 +34,7 @@ Sistem Pendukung Keputusan (SPK) berbasis Machine Learning menggunakan algoritma
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi Secara Lokal
+## Cara Menjalankan Aplikasi Secara Lokal
 
 1. **Clone repositori ini:**
    ```bash
