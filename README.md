@@ -32,11 +32,3 @@ Sistem Pendukung Keputusan (SPK) berbasis Machine Learning menggunakan algoritma
 4. **Implementasi**
    * Menyediakan *prototype* Sistem Pendukung Keputusan interaktif berbasis Streamlit
    * Menyederhanakan aturan keputusan menggunakan *if-then rules* dari *tree* untuk membantu pengambilan keputusan klinis secara cepat
-
----
-
-## Cara Menjalankan Aplikasi Secara Lokal
-
-1. **Clone repositori ini:**
-   ```bash
-   git clone [https://github.com/dapoull/SPK-Prediksi-Risiko-Kematian-Neonatal.git](https://github.com/dapoull/SPK-Prediksi-Risiko-Kematian-Neonatal.git)
