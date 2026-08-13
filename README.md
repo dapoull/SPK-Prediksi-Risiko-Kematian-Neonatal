@@ -1,4 +1,5 @@
 # SPK Prediksi Risiko Kematian Neonatal
+https://spk-prediksi-risiko-kematian-neonatal-s4cjdwtvztzsgrwcewqqdf.streamlit.app/
 
 Sistem Pendukung Keputusan (SPK) berbasis Machine Learning menggunakan algoritma **Decision Tree** untuk memprediksi risiko kematian neonatal (28 hari pertama) berdasarkan data klinis awal ibu dan bayi 
 
