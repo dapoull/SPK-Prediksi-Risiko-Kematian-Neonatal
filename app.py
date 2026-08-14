@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-# Import yang diperlukan untuk file upload (excel)
 from io import BytesIO 
 
 # ==============================================================================
@@ -27,7 +26,7 @@ st.markdown("---")
 
 
 # ==============================================================================
-# 3. INPUT DATA (Dipisahkan menjadi Single dan Bulk)
+# 3. INPUT DATA 
 # ==============================================================================
 st.header("Mode Prediksi")
 mode = st.radio(
@@ -90,10 +89,10 @@ if mode == 'Input Satu Data (Manual)':
         st.header("HASIL PREDIKSI RISIKO")
         
         if result_label == 'Died':
-            st.error(f"⚠️ **PREDIKSI: BAYI MATI (RISIKO TINGGI)**")
+            st.error(f"**PREDIKSI: BAYI MATI (RISIKO TINGGI)**")
             st.write("Rekomendasi: Intervensi dan perawatan intensif harus segera dipertimbangkan.")
         else:
-            st.success(f"✅ **PREDIKSI: BAYI HIDUP (RISIKO RENDAH)**")
+            st.success(f"**PREDIKSI: BAYI HIDUP (RISIKO RENDAH)**")
             st.write("Rekomendasi: Lanjutkan dengan protokol pengawasan standar.")
         
         st.subheader("Detail Input Data:")
@@ -163,7 +162,7 @@ elif mode == 'Input Banyak Data (Upload File Excel)':
             csv = convert_df(data_bulk)
 
             st.download_button(
-                label="📥 Download Hasil Prediksi (.csv)",
+                label="Download Hasil Prediksi (.csv)",
                 data=csv,
                 file_name='hasil_prediksi_neonatal.csv',
                 mime='text/csv',
